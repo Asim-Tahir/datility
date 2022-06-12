@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.lib.json",
+  "include": ["tests/vitest.setup.ts", "tests/**/*.test.ts", "src/**/*.ts"],
+  "exclude": [],
+  "compilerOptions": {
+    "composite": true,
+    "types": ["vite/client", "vitest/globals", "vitest/importMeta"],
+  }
+}

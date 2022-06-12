@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.lib.json",
+  "include": ["packages/types/env.d.ts", "vite.config.*"],
+  "compilerOptions": {
+    "composite": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "types": ["node"]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "name": "date-utilities",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Missing javascript Date object utilities",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.es.js",
+  "exports": {
+    ".": {
+      "default": "./dist/index.es.js",
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
+    },
+    "./manipulate": {
+      "default": "./dist/manipulate/index.es.js",
+      "import": "./dist/manipulate/index.es.js",
+      "require": "./dist/manipulate/index.cjs.js"
+    },
+    "./manipulate/add": {
+      "default": "./dist/manipulate/add.es.js",
+      "import": "./dist/manipulate/add.es.js",
+      "require": "./dist/manipulate/add.cjs.js"
+    },
+    "./manipulate/subtract": {
+      "default": "./dist/manipulate/subtract.es.js",
+      "import": "./dist/manipulate/subtract.es.js",
+      "require": "./dist/manipulate/subtract.cjs.js"
+    },
+    "./manipulate/reference": {
+      "default": "./dist/manipulate/reference.es.js",
+      "import": "./dist/manipulate/reference.es.js",
+      "require": "./dist/manipulate/reference.cjs.js"
+    },
+    "./working-days": {
+      "default": "./dist/working-days.es.js",
+      "import": "./dist/working-days.es.js",
+      "require": "./dist/working-days.cjs.js"
+    },
+    "./comparison": {
+      "default": "./dist/comparison.es.js",
+      "import": "./dist/comparison.es.js",
+      "require": "./dist/comparison.cjs.js"
+    }
+  },
+  "types": "dist/types/index.d.ts",
+  "typesVersions": {
+    "*": {
+      ".": [
+        "dist/types/index.d.ts"
+      ],
+      "./manipulate": [
+        "dist/types/manipulate/index.d.ts"
+      ],
+      "./manipulate/add": [
+        "dist/types/manipulate/add.d.ts"
+      ],
+      "./manipulate/subtract": [
+        "dist/types/manipulate/subtract.d.ts"
+      ],
+      "./manipulate/reference": [
+        "dist/types/manipulate/reference.d.ts"
+      ],
+      "./working-days": [
+        "dist/types/working-days.d.ts"
+      ],
+      "./comparison": [
+        "dist/types/comparison.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "keywords": [
+    "date-utils",
+    "date-utilities",
+    "date-utility",
+    "date",
+    "utility",
+    "utilities",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asim-Tahir/date-utilities.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Asim-Tahir/date-utilities/issues"
+  },
+  "author": {
+    "email": "AsimTahir@protonmail.com",
+    "name": "Asım Tahir"
+  },
+  "homepage": "https://github.com/Asim-Tahir/date-utilities/tree/main#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc -p tsconfig.lib.json",
+    "build@watch": "vite build -w",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "test+coverage": "vitest --coverage",
+    "test:run+coverage": "vitest run --coverage",
+    "test:ci": "vitest run --silent"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "@vitest/ui": "^0.14.2",
+    "c8": "^7.11.3",
+    "typescript": "^4.7.3",
+    "vite": "^2.9.12",
+    "vitest": "^0.14.2"
+  }
+}
