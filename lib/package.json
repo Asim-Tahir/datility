@@ -9,62 +9,69 @@
     ".": {
       "default": "./dist/index.es.js",
       "import": "./dist/index.es.js",
-      "require": "./dist/index.cjs.js"
+      "require": "./dist/index.cjs.js",
+      "types": "./types/index.d.ts"
     },
     "./manipulate": {
       "default": "./dist/manipulate/index.es.js",
       "import": "./dist/manipulate/index.es.js",
-      "require": "./dist/manipulate/index.cjs.js"
+      "require": "./dist/manipulate/index.cjs.js",
+      "types": "./types/manipulate/index.d.ts"
     },
     "./manipulate/add": {
       "default": "./dist/manipulate/add.es.js",
       "import": "./dist/manipulate/add.es.js",
-      "require": "./dist/manipulate/add.cjs.js"
+      "require": "./dist/manipulate/add.cjs.js",
+      "types": "./types/manipulate/add.d.ts"
     },
     "./manipulate/subtract": {
       "default": "./dist/manipulate/subtract.es.js",
       "import": "./dist/manipulate/subtract.es.js",
-      "require": "./dist/manipulate/subtract.cjs.js"
+      "require": "./dist/manipulate/subtract.cjs.js",
+      "types": "./types/manipulate/subtract.d.ts"
     },
     "./manipulate/reference": {
       "default": "./dist/manipulate/reference.es.js",
       "import": "./dist/manipulate/reference.es.js",
-      "require": "./dist/manipulate/reference.cjs.js"
+      "require": "./dist/manipulate/reference.cjs.js",
+      "types": "./types/manipulate/reference.d.ts"
     },
     "./working-days": {
       "default": "./dist/working-days.es.js",
       "import": "./dist/working-days.es.js",
-      "require": "./dist/working-days.cjs.js"
+      "require": "./dist/working-days.cjs.js",
+      "types": "./types/working-days.d.ts"
     },
     "./comparison": {
       "default": "./dist/comparison.es.js",
       "import": "./dist/comparison.es.js",
-      "require": "./dist/comparison.cjs.js"
+      "require": "./dist/comparison.cjs.js",
+      "types": "./types/comparison.d.ts"
     }
   },
-  "types": "dist/types/index.d.ts",
+  "types": "types/index.d.ts",
   "typesVersions": {
     "*": {
       ".": [
-        "dist/types/index.d.ts"
+        "types/index.d.ts"
       ],
       "./manipulate": [
-        "dist/types/manipulate/index.d.ts"
+        "types/manipulate/index.d.ts"
       ],
       "./manipulate/add": [
-        "dist/types/manipulate/add.d.ts"
+        "types/manipulate/add.d.ts"
       ],
       "./manipulate/subtract": [
-        "dist/types/manipulate/subtract.d.ts"
+        "types/manipulate/subtract.d.ts"
       ],
       "./manipulate/reference": [
-        "dist/types/manipulate/reference.d.ts"
+        "types/manipulate/reference.d.ts"
       ],
       "./working-days": [
-        "dist/types/working-days.d.ts"
+        "types/working-days.d.ts"
       ],
       "./comparison": [
-        "dist/types/comparison.d.ts"
+        "types/comparison.d.ts"
       ]
     }
   },
