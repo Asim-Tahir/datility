@@ -1,6 +1,6 @@
 {
   "name": "datility",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "description": "Missing javascript Date object utilities",
   "main": "./dist/index.cjs.js",
@@ -77,7 +77,8 @@
   },
   "files": [
     "dist",
-    "types"
+    "types",
+    "README.md"
   ],
   "keywords": [
     "date-utils",
