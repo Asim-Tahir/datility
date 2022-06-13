@@ -1,4 +1,4 @@
-<h1 align="center">Date Utilities 📅</h1>
+<h1 align="center">Datility 📅</h1>
 <p align="center">Missing javascript <code>Date</code> object utilities</p>
 
 ## Installation
