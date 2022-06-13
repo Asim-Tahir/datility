@@ -5,6 +5,7 @@
     "module": "ESNext",
     "lib": ["ESNext"],
     "moduleResolution": "Node",
+    "composite": true,
     "strict": true,
     "sourceMap": false,
     "resolveJsonModule": true,

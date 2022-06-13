@@ -1,5 +1,5 @@
 {
-  "name": "date-utilities",
+  "name": "datility",
   "version": "0.1.0",
   "license": "MIT",
   "description": "Missing javascript Date object utilities",
@@ -81,7 +81,7 @@
   ],
   "keywords": [
     "date-utils",
-    "date-utilities",
+    "datility",
     "date-utility",
     "date",
     "utility",
@@ -90,16 +90,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Asim-Tahir/date-utilities.git"
+    "url": "git+https://github.com/Asim-Tahir/datility.git"
   },
   "bugs": {
-    "url": "https://github.com/Asim-Tahir/date-utilities/issues"
+    "url": "https://github.com/Asim-Tahir/datility/issues"
   },
   "author": {
     "email": "AsimTahir@protonmail.com",
     "name": "Asım Tahir"
   },
-  "homepage": "https://github.com/Asim-Tahir/date-utilities/tree/main#readme",
+  "homepage": "https://github.com/Asim-Tahir/datility/tree/main#readme",
   "scripts": {
     "dev": "vite",
     "build": "vite build && tsc -p tsconfig.lib.json",

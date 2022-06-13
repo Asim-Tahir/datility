@@ -1,5 +1,5 @@
 import "./style.css";
-import "date-utilities";
+import "datility";
 
 const app = document.querySelector<HTMLDivElement>("#app");
 
@@ -9,7 +9,7 @@ if (app) {
       Let's play around with the new 
       <code>Date</code>
       utilities coming via
-      <code>date-utilities</code>:
+      <code>datility</code>:
         <time>${new Date().addWorkingDays(3).toLocaleString()}</time>
     </p>
   `;

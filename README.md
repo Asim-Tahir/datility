@@ -4,15 +4,15 @@
 ## Installation
 
 ```bash
-npm i date-utilities --save
+npm i datility --save
 ```
 
 ```bash
-yarn add date-utilities
+yarn add datility
 ```
 
 ```bash
-pnpm add date-utilities
+pnpm add datility
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ pnpm add date-utilities
 All methods are accessible via [`Date`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) object. With this line all methods, properties and so on added to the `Date` object.
 
 ```ts
-import "date-utilities";
+import "datility";
 
 console.log(new Date(2022, 5, 3).addDays(1)); // => Sat Jun 04 2022 00:00:00 GMT+0300 (GMT+03:00)
 ```
@@ -28,28 +28,28 @@ console.log(new Date(2022, 5, 3).addDays(1)); // => Sat Jun 04 2022 00:00:00 GMT
 Also, can import methods from the specified category:
 
 ```ts
-import "date-utilities";
+import "datility";
 ```
 
 #### `manipulate` category
 
 ```ts
-import "date-utilities/manipulate";
-import "date-utilities/manipulate/add";
-import "date-utilities/manipulate/subtract";
-import "date-utilities/manipulate/reference";
+import "datility/manipulate";
+import "datility/manipulate/add";
+import "datility/manipulate/subtract";
+import "datility/manipulate/reference";
 ```
 
 #### `comparison` category
 
 ```ts
-import "date-utilities/comparison";
+import "datility/comparison";
 ```
 
 #### `working-days` category
 
 ```ts
-import "date-utilities/working-days";
+import "datility/working-days";
 ```
 
 ## Methods

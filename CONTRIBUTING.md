@@ -1,6 +1,6 @@
-# Contributing to `date-utilities`
+# Contributing to `datility`
 
-Thank you for taking your time to contribute to `date-utilities`📅. If you have a good idea for a new feature or a new method, please open [a discussion](https://github.com/Asim-Tahir/date-utilities/discussions/new?category=general) or [pull request](https://github.com/Asim-Tahir/date-utilities/compare). When facing a bug, please open [an issue](https://github.com/Asim-Tahir/date-utilities/issues/new/choose).
+Thank you for taking your time to contribute to `datility`📅. If you have a good idea for a new feature or a new method, please open [a discussion](https://github.com/Asim-Tahir/datility/discussions/new?category=general) or [pull request](https://github.com/Asim-Tahir/datility/compare). When facing a bug, please open [an issue](https://github.com/Asim-Tahir/datility/issues/new/choose).
 
 ## Code of Conduct
 
@@ -20,27 +20,27 @@ If starting from scratch, it might be helpful to take a look at these guides:
 
 #### Create a new issue
 
-If you facing a problem, [search if an issue already exists](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests). If a related issue is doesn't exist, create a new one with [issue form](https://github.com/Asim-Tahir/date-utilities/issues/new/choose)
+If you facing a problem, [search if an issue already exists](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests). If a related issue is doesn't exist, create a new one with [issue form](https://github.com/Asim-Tahir/datility/issues/new/choose)
 
 #### Solve an issue
 
-Scan through [existing issues](https://github.com/Asim-Tahir/date-utilities/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See [Labels](https://github.com/Asim-Tahir/date-utilities/labels) for more information. If you find an issue to work on, you are welcome to open a PR with a fix.
+Scan through [existing issues](https://github.com/Asim-Tahir/datility/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See [Labels](https://github.com/Asim-Tahir/datility/labels) for more information. If you find an issue to work on, you are welcome to open a PR with a fix.
 
 ### Discussions
 
 #### Create a new discussion
 
-If you have a good idea for a new feature or a new method, [search if an discussion already exist](https://docs.github.com/en/search-github/searching-on-github/searching-discussions). If a related discussion is doesn't exist, please open [a discussion](https://github.com/Asim-Tahir/date-utilities/discussions/new?category=general).
+If you have a good idea for a new feature or a new method, [search if an discussion already exist](https://docs.github.com/en/search-github/searching-on-github/searching-discussions). If a related discussion is doesn't exist, please open [a discussion](https://github.com/Asim-Tahir/datility/discussions/new?category=general).
 
 #### Helping others
 
-When you are done with `date-utilities` and want to help others to face problems. You can answer an already opened discussion. If you are a discussion starter please don't forget to mark it as `answered` if is answered.
+When you are done with `datility` and want to help others to face problems. You can answer an already opened discussion. If you are a discussion starter please don't forget to mark it as `answered` if is answered.
 
 ### Pull Requests
 
 #### Create a new pull request
 
-If you have a good idea for a new feature or method of fixing an existing problem, [search if a pull request already exists](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests). If a related pull request doesn't exist, please open [a pull request](https://github.com/Asim-Tahir/date-utilities/compare).
+If you have a good idea for a new feature or method of fixing an existing problem, [search if a pull request already exists](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests). If a related pull request doesn't exist, please open [a pull request](https://github.com/Asim-Tahir/datility/compare).
 
 #### Pull Request Guidelines
 
