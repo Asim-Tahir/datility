@@ -112,11 +112,11 @@
     "test:ci": "vitest run --silent"
   },
   "devDependencies": {
-    "@types/node": "^17.0.42",
-    "@vitest/ui": "^0.14.2",
-    "c8": "^7.11.3",
-    "typescript": "^4.7.3",
-    "vite": "^2.9.12",
-    "vitest": "^0.14.2"
+    "@types/node": "17.0.42",
+    "@vitest/ui": "0.14.2",
+    "c8": "7.11.3",
+    "typescript": "4.7.3",
+    "vite": "2.9.12",
+    "vitest": "0.14.2"
   }
 }
