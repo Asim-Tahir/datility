@@ -21,7 +21,7 @@ importers:
   playground:
     specifiers:
       '@types/node': ^17.0.42
-      datility: workspace:^0.1.0
+      datility: workspace:*
       typescript: ^4.7.3
       vite: ^2.9.12
     dependencies:
